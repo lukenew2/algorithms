@@ -1,6 +1,6 @@
 """Tests for algos/two_sum.py"""
 
-from two_sum import two_sum
+from algos.two_sum import two_sum
 
 def test_two_sum():
 

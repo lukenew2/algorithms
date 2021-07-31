@@ -1,5 +1,5 @@
 """Tests for algos/bubble_sort.py."""
-from bubble_sort import bubble_sort
+from algos.bubble_sort import bubble_sort
 
 
 def test_bubble_sort():

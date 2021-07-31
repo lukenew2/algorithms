@@ -1,7 +1,7 @@
 """Module containing tests for algos/inversions.py."""
 
-from inversions import inversions
-from inversions import merge_sort_inversions
+from algos.inversions import inversions
+from algos.inversions import merge_sort_inversions
 
 def test_inversions():
 

@@ -1,5 +1,5 @@
 """Tests for algos/insertion_sort.py."""
-from insertion_sort import insertion_sort
+from algos.insertion_sort import insertion_sort
 
 
 def test_insertion_sort():

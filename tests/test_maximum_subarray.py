@@ -1,8 +1,8 @@
 """Tests for algos/maximum_subarray.py"""
 
-from maximum_subarray import find_maximum_subarray
-from maximum_subarray import find_max_subarray_brute_force
-from maximum_subarray import find_maximum_subarray_nonrecursive
+from algos.maximum_subarray import find_maximum_subarray
+from algos.maximum_subarray import find_max_subarray_brute_force
+from algos.maximum_subarray import find_maximum_subarray_nonrecursive
 
 def test_find_maximum_subarray():
 

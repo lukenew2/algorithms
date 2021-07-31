@@ -1,6 +1,6 @@
 """Tests for algos/complex_multiply.py"""
 
-from complex_multiply import complex_multiply
+from algos.complex_multiply import complex_multiply
 
 def test_complex_multiply():
 

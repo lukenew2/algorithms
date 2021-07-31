@@ -1,5 +1,5 @@
 """Tests for algos/binary_search.py."""
-from binary_search import binary_search
+from algos.binary_search import binary_search
 
 def test_binary_search():
 

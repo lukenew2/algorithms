@@ -2,9 +2,9 @@
 
 import numpy as np
 from numpy.testing import assert_array_equal
-from square_matrix_multiply import square_matrix_multiply
-from square_matrix_multiply import square_matrix_recursive
-from square_matrix_multiply import strassen_method
+from algos.square_matrix_multiply import square_matrix_multiply
+from algos.square_matrix_multiply import square_matrix_recursive
+from algos.square_matrix_multiply import strassen_method
 
 
 def test_square_matrix_multiply():

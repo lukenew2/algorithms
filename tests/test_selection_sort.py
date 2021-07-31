@@ -1,6 +1,6 @@
 """Tests for algos/selection_sort.py."""
 
-from selection_sort import selection_sort
+from algos.selection_sort import selection_sort
 
 def test_selection_sort():
 

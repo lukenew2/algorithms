@@ -1,6 +1,6 @@
 """Tests for algos/merge_sort.py"""
-from merge_sort import merge
-from merge_sort import merge_sort
+from algos.merge_sort import merge
+from algos.merge_sort import merge_sort
 
 def test_merge():
 
