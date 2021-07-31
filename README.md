@@ -1,7 +1,7 @@
 # Introduction to Algorithms
 
 ## About
-Implementations of algorithms found in Introduction to algorithms by CLRS with test cases.  You will find python solutions to problems in the book.
+Implementations of algorithms found in Introduction to algorithms by CLRS.  You will find python solutions to problems in the book with test cases.
 
 Some files contain more than one algorithm solving the problem in various time and space complexities.  
 
