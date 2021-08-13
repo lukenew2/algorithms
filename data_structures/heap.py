@@ -124,6 +124,6 @@ class Heap():
         # Get max index of non leaf nodes.
         max_node = (self.heapsize - 1) // 2
 
-        # Call max heapify on non-leaf nodes.
+        # Call min heapify on non-leaf nodes.
         for i in range(max_node, -1, -1):
             self.min_heapify(A, i)    
