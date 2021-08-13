@@ -1,4 +1,4 @@
-from algos.heap import Heap 
+from data_structures.heap import Heap 
 
 def heapsort(A):
     """

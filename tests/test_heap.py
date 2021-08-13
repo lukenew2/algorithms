@@ -1,5 +1,5 @@
 """Module containing tests for ./algos/heap.py"""
-from algos.heap import Heap
+from data_structures.heap import Heap
 
 def test_parent():
     
