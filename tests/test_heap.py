@@ -37,3 +37,33 @@ def test_max_heapify():
     heap.max_heapify(A, 1)
 
     assert A == [16, 14, 10, 8, 7, 9, 3, 2, 4, 1] 
+
+def test_min_heapify():
+
+    A = [4, 7, 5, 4, 9]
+
+    heap = Heap(A) 
+
+    heap.min_heapify(A, 1)
+
+    assert A == [4, 4, 5, 7, 9] 
+
+def test_build_max_heap():
+
+    A = [4, 1, 3, 2, 16, 9, 10, 14, 8, 7]
+
+    heap = Heap(A)
+
+    heap.build_max_heap(A)
+
+    assert A == [16, 14, 10, 8, 7, 9, 3, 2, 4, 1]
+
+def test_build_min_heap():
+
+    A = [4, 1, 3, 2, 16, 9, 10, 14, 8, 7]
+
+    heap = Heap(A)
+
+    heap.build_min_heap(A)
+
+    assert A == [1, 2, 3, 4, 7, 9, 10, 14, 8, 16]    
